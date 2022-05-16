@@ -20,7 +20,7 @@ public class unboundKnapsack {
 
     public static void main(String[] args) {
         int[] weight = new int[] { 1, 2, 3, 4 };
-        int[] value = new int[] { 2, 2, 2, 7 };
+        int[] value = new int[] { 2, 2, 2, 21 };
         int capacity = 10;
         int N = weight.length;
         int[][] map = new int[N + 1][capacity + 1];

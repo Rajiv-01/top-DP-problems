@@ -1,6 +1,7 @@
 {
 	"java.project.sourcePaths": [
 		"Unbound Knapsack pattern",
-		"LongestCommonSequence"
+		"LongestCommonSequence",
+		"MatrixChainMultiplication"
 	]
 }

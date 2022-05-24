@@ -22,7 +22,7 @@ public class matrixMul {
         if (i >= j) {
             return 0;
         }
-        if (dp[i][j] != 0) {
+        if (dp[i][j] != -1) {
             return dp[i][j];
         }
         int min = Integer.MAX_VALUE;
@@ -41,6 +41,11 @@ public class matrixMul {
         int[] arr = { 1, 2, 3, 4, 5 };
         int n = arr.length;
         int[][] dp = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                dp[i][j] = -1;
+            }
+        }
 
         // in this pattern we have two indices left most and right most which could be
         // changed as per question

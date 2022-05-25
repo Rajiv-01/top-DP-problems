@@ -25,6 +25,7 @@ public class palindromePartitioning {
         for (int k = i; k < j; k++) {
             // so we check both left and right side of the partition and add one(which
             // indicates the partition)
+            // we check for each part also as it will further optimize the time
             int left, right;
             if (dp[i][k] != -1) {
                 left = dp[i][k];
